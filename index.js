@@ -16,7 +16,7 @@ document.addEventListener('DOMContentLoaded', function() {
         // Check if credentials match
         if (username === VALID_USERNAME && password === VALID_PASSWORD) {
             // Successful login - redirect to letter page
-            window.location.href = '/letter';
+            window.location.href = '/letter.html';
         } else {
             // Show error message
             errorMessage.textContent = 'Invalid username or password';
