@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Be My Valentine?</title>
+    <link rel="stylesheet" href="/question.css">
+</head>
+<body class="question-page">
+    <div class="hearts-background">
+        <div class="heart"></div>
+        <div class="heart"></div>
+        <div class="heart"></div>
+        <div class="heart"></div>
+        <div class="heart"></div>
+        <div class="heart"></div>
+        <div class="heart"></div>
+    </div>
+
+    <div class="question-container">
+        <h1 class="question-title">Will you be my Valentine?</h1>
+        
+        <div class="button-container">
+            <button class="btn-choice btn-yes" onclick="celebrate()">Yes</button>
+            <button class="btn-choice btn-absolutely" onclick="celebrate()">Ofcourse</button>
+        </div>
+
+        <div id="celebration" class="celebration hidden">
+            <h2 class="celebration-text">Thank you for making me the luckiest person in the world</h2>
+            <p class="celebration-subtext">I love you so much</p>
+        </div>
+    </div>
+
+    <script src="question.js"></script>
+</body>
+</html>
